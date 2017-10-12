@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>JS Order</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+  
+        <div class="row header">
+                <h1> JS</h1>
+        </div>   
+
+
+        <div class="row">
+            <div class="col-4">
+                    <canvas id="myChart" width="400" height="400"></canvas>
+            </div>
+            <div class="col-8">
+                  Name: <input class="form-control" name="name" id="name">
+                  Age: <input class="form-control" name="age" id="age">
+                  Salary: <input class="form-control" name="salary" id="salary">
+                  Weight: <input class="form-control" name="weight" id="weight">
+                  <button type="button" class="btn btn-default" onclick="addData()">Submit</button>
+                  <button type="button" class="btn btn-default" onclick="removeData(myChart)">Remove last</button>
+                  <button type="button" class="btn btn-default" onclick="clear(myChart)">Clear</button>
+
+                  
+            </div>
+        </div>
+
+                    
+    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
